@@ -1,0 +1,9 @@
+CREATE TABLE fruits (id INTEGER PRIMARY KEY, name text, quanity integer, aisle integer, stock integer); 
+
+INSERT INTO fruits VALUES (1, "Apples",4,1,15);
+INSERT INTO fruits VALUES (2, "Mangoes",4,2,12);
+INSERT INTO fruits VALUES (3, "Kiwis",4,3,8);
+INSERT INTO fruits VALUES (4, "Lychee",5,4,15);
+INSERT INTo fruits VALUES (5, "Dragonfruit",6,5,6);
+
+SELECT SUM(quanity) FROM fruits;
